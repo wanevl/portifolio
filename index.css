@@ -12,13 +12,13 @@
 }
 
 :root {
-    --bg-color-dark: #110230;
-    --second-bg-dark: #092ef66f;
+    --bg-color-dark: #017269;
+    --second-bg-dark: #037e596f;
     --text-color-white: #e2e2d2;
     --bg-color-white: #e2e2d2;
-    --second-bg-white: #7196c0;
+    --second-bg-white: #71c095;
     --text-color-black: #243447;
-    --overlay-color: #0191ff;
+    --overlay-color: #000000;
 }
 
 html {
@@ -203,7 +203,7 @@ html::-webkit-slider-thumb {
         right: -100%;
         width: 150px;
         height: 2v6h;
-        background-color: rgba(0, 74, 173, 0.6);
+        background-color: rgba(0, 173, 86, 0.6);
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -243,7 +243,7 @@ html::-webkit-slider-thumb {
     }
 
     .dark-mode {
-        margin-right: -50px;
+        margin-right: -500px;
     }
 
     /* Ajustar a label para o botão ficar menor no modo mobile */
@@ -454,7 +454,7 @@ span {
 }
 
 .skills .container {
-    background-color: rgba(0, 74, 173, 0.2);
+    background-color: rgba(3, 151, 119, 0.2);
     border-radius: 1rem;
     padding: 2rem;
     width: 70%;
